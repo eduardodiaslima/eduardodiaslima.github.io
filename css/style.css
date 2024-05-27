@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poetsen+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #1C8B00;
+}
+
+#psec{
+    background-color: #68A800;
+    margin: 0rem
+}
+
+ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #68A800;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+}
+
+.header{
+    position: fixed;
+    top: 1rem;
+    left: 2.4rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: auto;
+    padding: 1rem;
+    margin: 0px 20rem 0px 23.5rem;
+    border-radius: 40px;
+    font-size: 1.3rem;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    padding: 0px 30px 0px 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+.hw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.5rem;
+    color: aliceblue;
+    font-family: "Poetsen One", sans-serif;
+    padding: 20px 0px 0px 0px;
+}
+
+.pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    color: aliceblue;
+    font-family: "Poetsen One", sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    margin: 4%;
+}
+
+
+
+.textright{
+    width: 50%;
+    float: right;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.textleft{
+    width: 50%;
+    float: left;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.sm, .smtitulo{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #417255;
+}
+
+.smtitulo{
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.smtitulomdb{
+    font-size: 2.2rem;
+    color: aliceblue;
+}
+
+.sm{
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.imgleft{
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+
+.imgright{
+    width: 50%;
+    float: right;
+    padding: 25px;
+}
+
+.imgsm{
+    height: 80%;
+    width: 80%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.titleprojeto{
+    text-align: center;
+    margin: 3rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.vl{
+    background-color: white;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 1rem;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 2rem;
+    color: #1C8B00;
+    margin: 5rem;
+    font-weight: 400;
+}
+
+.vlm{
+    background-color: white;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    border-radius: 1rem;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1.4rem;
+    color: #1C8B00;
+    margin: 3rem;
+    font-weight: 400;
+}
+
+.btnctts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vlmc{
+    background-color: white;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    border-radius: 1rem;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 1.4rem;
+    color: #1C8B00;
+    margin: 1rem;
+    font-weight: 400;
+}
+
+.test{
+    background-color: aqua;
+}
+
+.divformacao{
+    background-color: white;
+    border-radius: 2rem;
+    margin: 1rem;
+    margin-left: 5.5rem;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #68A800
+}
+
+.formtitulo{
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 2.2rem;
+}
+
+.curso{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+}
+
+.formacao{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.divctt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgsctt img{
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+footer{
+    background-color: white;
+}
+
+.footerlinks{
+    margin: 4rem;
+    font-size: 2rem;
+}
+
+.rights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.reserved{
+    text-align: center;
+}
